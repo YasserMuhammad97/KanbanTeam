@@ -1,0 +1,33 @@
+/******************* start darkRed_theme section ******************/
+
+/* active link */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu .divider,
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus ,
+.carousel-indicators .active { 
+    background-color: #ff9801;
+}
+
+.navbar-inverse .navbar-brand > span,
+.option-box .gear-div .gear-check:hover,
+.about h1 span,
+.testimonials span,
+footer .copyright span,
+footer h3 { 
+    color: #ff9801
+}
+
+.carousel-indicators .active,
+.testimonials .carousel-indicators li.active {
+    border: 3px solid #ff9801;
+}
+
+.dropdown-menu {
+    border-top: 2px solid #ff9801;
+}
+
+/******************** end darkRed_theme section *******************/
