@@ -1,0 +1,785 @@
+/* ----------- Start Main Rulez ----------- */
+
+body {
+    font-family: sans-serif;
+    background-color: #FFF;
+}
+
+
+/* ----------- End Main Rulez ----------- */
+
+
+/* ----------- Start NavBar ----------- */
+
+.navbar-inverse .container-fluid .navbar-header .Logo {
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin-top: -2px;
+    float: left;
+}
+
+.navbar-inverse .container-fluid {
+    background-color: #000;
+    color: #FFF;
+    width: 100%;
+}
+
+.navbar-inverse .container-fluid .nav .active {
+    color: #FFF;
+}
+
+.navbar-inverse .container-fluid .navbar-form .form-group {
+    margin-left: -20px;
+}
+
+.navbar-inverse .container-fluid .navbar-form .form-group input {
+    color: #191919;
+    width: 137%;
+    box-sizing: border-box;
+    border: 0 solid;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('../images/search.png');
+    background-position: 4px 3px;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    padding: 6px 23px 8px 40px;
+}
+
+
+/* ----------- End NavBar ----------- */
+
+
+/* ----------- Start Header ----------- */
+
+.header {
+    background-color: #EEE;
+    background-image: url(../images/pexels-photo-450275.jpeg);
+    -webkit-background-size: cover;
+    height: 420px;
+}
+
+.header .overlay {
+    background-color: rgba(5, 5, 5, .3);
+    border-radius: 0px;
+}
+
+.header .intro {
+    padding-top: 140px;
+    color: #FFF;
+    text-align: center;
+    position: static;
+}
+
+.header .intro h1 {
+    font-size: 46px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .9), 0 0 30px rgba(0, 0, 0, .075);
+    margin: 0;
+}
+
+.header .intro p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.8;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .9), 0 0 30px rgba(0, 0, 0, .075);
+}
+
+.header .intro p span {
+    color: #ffb900;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header .intro button {
+    color: #000;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header .intro button:hover {
+    background: -webkit-linear-gradient(top, #d9d4c5 0, #ffe9a2 2%, #fac53b 100%);
+}
+
+
+/* ----------- Start Header ----------- */
+
+
+/* ----------- Strat Level ----------- */
+
+.skills {
+    width: 100%;
+    background-color: #fafafa;
+    padding: 10px 0 10px 0;
+}
+
+.skills .progress {
+    width: 100%;
+    height: 370px;
+    padding: 20px 30px;
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    background-color: #fafafa;
+}
+
+.skills .progress .overlay {
+    border-radius: 4px;
+}
+
+.skills .progress .progress-left {
+    float: left;
+    width: 40%;
+}
+
+.skills .progress .progress-right {
+    float: left;
+    width: 60%;
+}
+
+.skills .progress .progress-left .software {
+    background-image: url("../images/pexels-photo-450270.jpeg");
+    background-size: cover;
+    height: 322px;
+    border-radius: 4px;
+}
+
+.skills .progress .progress-left .software h3 {
+    margin-top: 0px;
+    padding-top: 120px;
+    color: #FFF;
+}
+
+.skills .progress .progress-left div:last-of-type {
+    text-align: center;
+}
+
+.skills .progress .progress-right .design,
+.skills .progress .progress-right .business,
+.skills .progress .progress-right .development,
+.skills .progress .progress-right .photography {
+    width: 46%;
+    height: 150px;
+    margin: 0 0 5px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    background-size: cover;
+    text-align: center;
+    transition: ease-in-out .5s;
+}
+
+.skills .progress .progress-left .software:hover,
+.skills .progress .progress-right .design:hover,
+.skills .progress .progress-right .business:hover,
+.skills .progress .progress-right .development:hover,
+.skills .progress .progress-right .photography:hover {
+    transform: scale(1.05, 1.05);
+    transition: ease-in-out .4s;
+    cursor: pointer;
+}
+
+.skills .progress .progress-right .development,
+.skills .progress .progress-right .photography {
+    margin-top: 15px;
+}
+
+.skills .progress .progress-right .design {
+    background-image: url("../images/pexels-photo-270691.jpeg");
+}
+
+.skills .progress .progress-right .business {
+    background-image: url("../images/pexels-photo-615475.jpeg");
+}
+
+.skills .progress .progress-right .development {
+    background-image: url("../images/1.jpeg");
+}
+
+.skills .progress .progress-right .photography {
+    background-image: url("../images/pexels-photo-52608.jpeg");
+}
+
+.skills h3 {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 23px;
+    padding-top: 45px;
+    margin-top: 0px;
+    ;
+}
+
+.skills span {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* ----------- End Top-Level ----------- */
+
+
+/* ----------- Start Start Trial ----------- */
+
+.trial {
+    background-color: #fafafa;
+    color: #000;
+    overflow: hidden;
+    padding: 0 0 30px 0;
+}
+
+.trial .unlimited-access,
+.trial .expert-teachers,
+.trial .learn-anywhere {
+    width: 33%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+.trial h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.trial button {
+    margin-left: 95px;
+    font-weight: 700;
+}
+
+.trial button:hover {
+    background: -webkit-linear-gradient(top, #d9d4c5 0, #ffe9a2 2%, #fac53b 100%);
+}
+
+
+/* ----------- End Trial ----------- */
+
+
+/* ----------- Start Courses  ----------- */
+
+.courses {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.courses h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+}
+
+.courses .nav {
+    overflow: hidden;
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+
+.courses .nav ul {
+    text-align: center;
+}
+
+.courses .nav ul li {
+    display: inline-block;
+    padding: 10px 10px 5px 10px;
+}
+
+.courses .nav ul li a {
+    color: #4a4949;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.courses .nav ul li.active {
+    font-weight: bold;
+}
+
+.courses .nav ul li.active,
+.courses .nav ul li:hover {
+    border-bottom: 2px solid #008cc9;
+}
+
+.courses {
+    background: #fff;
+}
+
+.courses .video {
+    overflow: hidden;
+    width: 100%;
+}
+
+.courses .sub-video {
+    width: 22%;
+    overflow: hidden;
+    border-radius: 8px;
+    display: inline-block;
+    border: 1px solid #a5a5a5;
+    margin: 10px;
+}
+
+.courses .sub-video .introVideo {
+    width: 100%;
+    height: auto;
+}
+
+.courses .sub-video .info-video {
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.courses .sub-video h3 {
+    padding: 10px 0 10px 10px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    overflow: hidden;
+    line-height: 1.5
+}
+
+.courses .sub-video small,
+.courses .sub-video span {
+    padding-left: 10px;
+}
+
+.courses .content-btn {
+    width: 50%;
+    margin: 40px 320px;
+}
+
+.courses .browse-btn,
+.courses .start-btn {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+}
+
+.courses .browse-btn {
+    background: #FFF;
+    border: 2px solid #aaa;
+    padding: 5px 40px;
+}
+
+.courses .browse-btn:hover {
+    border-color: #5c5c5c;
+}
+
+.courses .start-btn:hover {
+    background: -webkit-linear-gradient(top, #d9d4c5 0, #ffe9a2 2%, #fac53b 100%);
+}
+
+
+/* ----------- End Courses ----------- */
+
+
+/* ----------- Start Careers ----------- */
+
+.careers {
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: #FFF;
+    background-color: #fafafa;
+    color: #000
+}
+
+.careers h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.careers .progress {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    background-color: #FFF;
+    overflow: hidden;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.careers .progress .manager,
+.careers .progress .project-coordinator,
+.careers .progress .security-specialist,
+.careers .progress .digital-illustrator,
+.careers .progress .digital-marketer,
+.careers .progress .web-developer,
+.careers .progress .Graphic-designer,
+.careers .progress .digital-Illustrator,
+.careers .progress .system-administrator {
+    width: 23%;
+    height: 120px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    display: inline-block;
+    background-size: cover;
+    text-align: center;
+    transition: ease-in-out .5s;
+}
+
+.careers .progress .project-coordinator:hover,
+.careers .progress .security-specialist:hover,
+.careers .progress .Graphic-designer:hover,
+.careers .progress .digital-illustrator:hover,
+.careers .progress .digital-Illustrator:hover,
+.careers .progress .digital-marketer:hover,
+.careers .progress .web-developer:hover,
+.careers .progress .manager:hover,
+.careers .progress .system-administrator:hover {
+    transform: scale(1.05, 1.05);
+    transition: ease-in-out .5s;
+    cursor: pointer;
+}
+
+.careers .progress .digital-marketer {
+    background-image: url("../images/pexels-photo-374074.jpeg");
+}
+
+.careers .progress .web-developer {
+    background-image: url("../images/pexels-photo-52608.jpeg");
+}
+
+.careers .progress .manager {
+    background-image: url("../images/1.jpeg");
+}
+
+.careers .progress .system-administrator {
+    background-image: url("../images/pexels-photo-450272.jpeg");
+}
+
+.careers .progress .digital-Illustrator {
+    background-image: url("../images/1.jpeg");
+}
+
+.careers .progress .digital-illustrator {
+    background-image: url("../images/pexels-photo-416405.jpeg");
+}
+
+.careers .progress .Graphic-designer {
+    background-image: url("../images/1.jpeg");
+}
+
+.careers .progress .security-specialist {
+    background-image: url("../images/pexels-photo-450270.jpeg");
+}
+
+.careers .progress .project-coordinator {
+    background-image: url("../images/man-relax-couch-study.jpg");
+}
+
+.careers .progress h4 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+    padding-top: 50px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .9), 0 0 30px rgba(0, 0, 0, .075);
+}
+
+.careers h5 {
+    margin-left: 40%;
+    margin-top: -30px;
+    font-weight: 500;
+    width: 165px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.careers h5:hover {
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+
+/* ----------- End Careers ----------- */
+
+
+/* ----------- Start About Me ----------- */
+
+.about-me {
+    width: 100%;
+    color: #000;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.about-me .image {
+    float: left;
+    width: 40%;
+}
+
+.about-me .image img {
+    width: 80%;
+    height: 480px;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+.about-me .info {
+    float: right;
+    width: 60%;
+    padding: 100px 0 0 10px;
+}
+
+.about-me .info p {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+    width: 600px;
+}
+
+.about-me .info span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* ----------- End About Me ----------- */
+
+
+/* ----------- Start About-Company ----------- */
+
+.about-company {
+    width: 100%;
+    overflow: hidden;
+    color: #000;
+    background: #fafafa;
+    padding: 40px 0;
+}
+
+.about-company h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.about-company p {
+    font-size: 15px;
+    width: 600px;
+    margin-left: 24%;
+    text-align: center;
+    line-height: 1.7;
+    padding-bottom: 10px;
+}
+
+.about-company a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about-company a:hover {
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+
+.about-company .image {
+    text-align: center;
+}
+
+
+/* ----------- Start About-Company ----------- */
+
+
+/* ----------- Start Learning ----------- */
+
+.learning {
+    width: 100%;
+    overflow: hidden;
+    color: #000;
+    background-color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.learning .info {
+    float: left;
+    width: 40%;
+    padding: 30px 50px;
+}
+
+.learning .info h3 {
+    font-weight: bold;
+    font-size: 27px;
+    width: 300px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.learning .info p {
+    font-size: 17px;
+    width: 400px;
+}
+
+.learning .image {
+    float: right;
+    width: 60%;
+    padding: 20px 0 0 70px;
+}
+
+.learning .start-btn {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.learning .start-btn:hover {
+    background: -webkit-linear-gradient(top, #d9d4c5 0, #ffe9a2 2%, #fac53b 100%);
+}
+
+
+/* ----------- End Learning ----------- */
+
+
+/* ----------- Start Contact Me ----------- */
+
+.contact-me {
+    width: 100%;
+    overflow: hidden;
+    background: #191919;
+    padding: 40px 0;
+}
+
+.contact-me .info {
+    width: 70%;
+}
+
+.contact-me ul {
+    list-style: none;
+    width: 22%;
+    float: left;
+}
+
+.contact-me ul li {
+    padding-top: 10px;
+}
+
+.contact-me ul li h2 {
+    margin: 0;
+    color: #FFF;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.contact-me ul li a {
+    color: #848586;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 2px;
+}
+
+.contact-me ul li a:hover {
+    color: #FFF;
+}
+
+.contact-me .media {
+    float: right;
+    width: 30%;
+    padding: 5px 0 0 0;
+}
+
+.contact-me .media h2 {
+    margin: 0;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.contact-me .media ul {
+    list-style: none;
+    width: 65%;
+    float: left;
+}
+
+.contact-me .media ul li {
+    display: inline-block;
+    color: #FFF;
+    padding: 2px;
+}
+
+.contact-me .media ul li i:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+
+/* ----------- End Contact Me ----------- */
+
+
+/* ----------- Start Footer ----------- */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background: #000;
+}
+
+.footer .policy {
+    width: 65%;
+    padding: 35px 0 0 20px;
+}
+
+.footer ul {
+    list-style: none;
+    float: left;
+}
+
+.footer ul li {
+    padding-top: 10px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.footer ul li span {
+    font-size: 15px;
+    color: #848586;
+}
+
+.footer ul li a {
+    color: #848586;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 2px;
+}
+
+.footer ul li a:hover {
+    color: #FFF;
+}
+
+.footer .image {
+    width: 35%;
+    float: right;
+    margin-top: -15px;
+}
+
+.footer .image .logo {
+    width: 200px;
+    height: 70px;
+    float: right;
+}
+
+
+/* ----------- End Footer ----------- */
+
+.overlay {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background: -webkit-linear-gradient(top, #c3c3c3 0, #ffe9a2 2%, #f1af05 100%);
+    border: 1px solid #f1af05;
+    box-shadow: rgb(0, 3, 40, .9);
+    color: #000;
+    padding: 7px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}

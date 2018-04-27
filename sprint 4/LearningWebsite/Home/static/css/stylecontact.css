@@ -1,0 +1,362 @@
+/*-------------------------------------- first rules----------------------------- */
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/*---------------------------- end rules---------------------------------------- */
+
+
+/* ----------- Start NavBar ----------- */
+
+.navbar-inverse .container-fluid .navbar-header .Logo {
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin-top: -2px;
+    float: left;
+}
+
+.navbar-inverse .container-fluid {
+    background-color: #000;
+    color: #FFF;
+    width: 100%;
+}
+
+.navbar-inverse .container-fluid .nav .active {
+    color: #FFF;
+}
+
+.navbar-inverse .container-fluid .navbar-form .form-group {
+    margin-left: -20px;
+}
+
+.navbar-inverse .container-fluid .navbar-form .form-group input {
+    color: #191919;
+    width: 137%;
+    box-sizing: border-box;
+    border: 0 solid;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('../images/search.png');
+    background-position: 4px 3px;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    padding: 6px 23px 8px 40px;
+}
+
+
+/* ----------- End NavBar ----------- */
+
+
+/*------------------------------ start head--------------------------------- */
+
+.head .slider {
+    height: 450px;
+    background-image: url(../images/-2.jpg);
+    background-size: cover;
+    margin: -1px;
+}
+
+.head .slider .intro {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 160px;
+}
+
+.head .slider .intro h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.head .slider .intro ul {
+    margin-left: 250px;
+    margin-right: 300px;
+    padding-top: -10px;
+    list-style: none;
+    width: 900px;
+    font-size: 20px;
+    font-weight: 250px;
+}
+
+.head .slider .intro ul li {
+    float: left;
+    margin: 8px;
+}
+
+.head .slider .intro button {
+    color: #000;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(top, #c3c3c3 0, #ffe9a2 2%, #f1af05 100%);
+    border: 1px solid #f1af05;
+    box-shadow: rgb(0, 3, 40, .9);
+    color: #000;
+    padding: 7px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.head .slider .intro button:hover {
+    background: -webkit-linear-gradient(top, #d9d4c5 0, #ffe9a2 2%, #fac53b 100%);
+}
+
+.overline {
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+}
+
+
+/*---------------------------------------end head-------------------------------------*/
+
+
+/*--------------------------------start touch---------------------------------*/
+
+.touch {
+    overflow: hidden;
+    background-color: #eee;
+    height: 450px;
+    padding-top: 30px;
+}
+
+.touch .first .moh {
+    float: left;
+    margin-right: 300px;
+}
+
+.touch .first .moh h2 {
+    margin-top: -1px;
+    font-weight: 200;
+    font-size: 30px;
+    color: #000;
+}
+
+.touch .first .moh p {
+    color: #000;
+}
+
+.touch .first .moh input[type="text"] {
+    display: block;
+    margin: 30px 0;
+    height: 35px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid aqua;
+    padding-left: 22px;
+}
+
+.touch .first .moh input[name="mass"] {
+    height: 55px;
+    border-radius: 8px;
+}
+
+.touch .first .moh input[name="sub"] {
+    height: 35px;
+    width: 130px;
+    color: white;
+    font-size: 15px;
+    background-color: #00ccbb;
+    font-weight: bold;
+}
+
+.touch .first .last h2 {
+    font-weight: 190;
+    font-size: 23px;
+}
+
+.touch .first .last a {
+    text-decoration-line: none;
+    color: #00ccbb;
+    cursor: pointer;
+}
+
+.touch .first .last a:hover {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.touch .first .last h3 {
+    font-weight: 900;
+}
+
+
+/*--------------------------------end touch-----------------------------*/
+
+
+/*-----------------------------start footer--------------------------------*/
+
+.foot {
+    overflow: hidden;
+    background-image: url(../images/123.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
+.foot .port {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.foot .port h2 {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 600
+}
+
+.foot .port button {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 350;
+}
+
+
+/*--------------------------end footer-------------------------------------------*/
+
+
+/* ----------- Start Contact Me ----------- */
+
+.contact-me {
+    width: 100%;
+    overflow: hidden;
+    background: #191919;
+    padding: 40px 0;
+}
+
+.contact-me .info {
+    width: 70%;
+}
+
+.contact-me ul {
+    list-style: none;
+    width: 22%;
+    float: left;
+}
+
+.contact-me ul li {
+    padding-top: 10px;
+}
+
+.contact-me ul li h2 {
+    margin: 0;
+    color: #FFF;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.contact-me ul li a {
+    color: #848586;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 2px;
+}
+
+.contact-me ul li a:hover {
+    color: #FFF;
+}
+
+.contact-me .media {
+    float: right;
+    width: 30%;
+    padding: 5px 0 0 0;
+}
+
+.contact-me .media h2 {
+    margin: 0;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.contact-me .media ul {
+    list-style: none;
+    width: 65%;
+    float: left;
+}
+
+.contact-me .media ul li {
+    display: inline-block;
+    color: #FFF;
+    padding: 2px;
+}
+
+.contact-me .media ul li i:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+
+/* ----------- End Contact Me ----------- */
+
+
+/* ----------- Start Footer ----------- */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background: #000;
+}
+
+.footer .policy {
+    width: 65%;
+    padding: 35px 0 0 20px;
+}
+
+.footer ul {
+    list-style: none;
+    float: left;
+}
+
+.footer ul li {
+    padding-top: 10px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.footer ul li span {
+    font-size: 15px;
+    color: #848586;
+}
+
+.footer ul li a {
+    color: #848586;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 2px;
+}
+
+.footer ul li a:hover {
+    color: #FFF;
+}
+
+.footer .image {
+    width: 35%;
+    float: right;
+    margin-top: -15px;
+}
+
+.footer .image .logo {
+    width: 200px;
+    height: 70px;
+    float: right;
+}
+
+
+/* ----------- End Footer ----------- */

@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+{% load staticfiles %}
+    <title> E-learning System </title>
+    <!-- IE Compability Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style_home.css'%}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css'%}">
+    <link rel="icon" href="{% static 'images/favicon.ico'%}">
+
+    <!--  Google Font  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+
+    <!--  animate to wow.js  -->
+    <link rel="stylesheet" href="{% static 'css/animate.css'%}">
+
+    <!--  main css style  -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css'%}">
+    <link rel="stylesheet" href="{% static 'css/rtl.css'%}">
+</head>
+
+<body>
+
+
+    <!----------- Start NavBar ----------->
+
+    <nav class="navbar-inverse  navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header col-lg-3">
+                <img src="{% static 'images/LogoPNG.png'%}" class="Logo">
+            </div>
+            <ul class="nav navbar-nav col-lg-6">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Courses <span class='caret'></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://127.0.0.1:8000/Home/java/">Java</a></li>
+                        <li><a href="../Courses/index.html">Android</a></li>
+                        <li><a href="http://127.0.0.1:8000/Home/graphics/">Graphic</a></li>
+                        <li><a href="http://127.0.0.1:8000/Home/database/">Database</a></li>
+                        <li><a href="../Courses/index.html">Web Design</a></li>
+                        <li><a href="../Courses/index.html">Marketing</a></li>
+                        <li><a href="../Courses/index.html">Photography</a></li>
+                        <li><a href="../Courses/index.html">Software Developer</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://127.0.0.1:8000/Home/instructors/">Instructors</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="http://127.0.0.1:8000/Home/aboutus/">About Me</a></li>
+                <li><a href="http://127.0.0.1:8000/Home/contactus/">Contacts</a></li>
+                <li><a href="http://127.0.0.1:8000/logout">logout</a></li>
+            </ul>
+            <form class="navbar-form navbar-left col-lg-3">
+                <div class="form-group">
+                    <input type="text" name="search" placeholder="Search for the software or skills  you want to learn">
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <!----------- End NavBar ----------->
+
+    <!----------- Start Header ----------->
+
+    <div class="header">
+        <div class="overlay">
+            <div class="container">
+                <div class="intro ">
+                    <h1>Learn a new skill online, onyour time</h1>
+                    <p>6,234 courses in Business, Tchnology and skills taught by industry experts.<br>
+                        <span>Try FCI Learining System.com free for 30 days.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------- End Header ----------->
+
+
+    <!----------- Strat Skills ----------->
+
+    <div class="skills">
+        <div class="container">
+            <div class="progress">
+                <div class="progress-left">
+                    <div class="software">
+                        <div class="overlay">
+                            <h3>Software Development</h3>
+                            <span>Over 600 courses</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progress-right">
+                    <div class="design">
+                        <div class="overlay">
+                            <h3>Design</h3>
+                            <span>Over 700 courses</span>
+                        </div>
+                    </div>
+                    <div class="business">
+                        <div class="overlay">
+                            <h3>Business</h3>
+                            <span>Over 1,200 courses</span>
+                        </div>
+                    </div>
+                    <div class="development">
+                        <div class="overlay">
+                            <h3>Development</h3>
+                            <span>Over 700 courses</span>
+                        </div>
+                    </div>
+                    <div class="photography">
+                        <div class="overlay">
+                            <h3>photography</h3>
+                            <span>Over 700 courses</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------  End Skills ----------->
+
+    <!----------- Start Trial ----------->
+
+    <div class="trial">
+        <div class="container">
+            <div class="unlimited-access">
+
+                <img src="{% static 'images/Logo%20Unlimited%20Access.PNG'%}">
+                <h2>Unlimited Access</h2>
+                <p>Choose what you'd like to learn from our extensive subscription library.</p>
+            </div>
+            <div class="expert-teachers">
+                <img src="{% static 'images/Logo%20Expert%20Teachers.PNG'%}">
+                <h2>Expert Teachers</h2>
+                <p>Learn from industry experts who are passionate about teaching.</p>
+            </div>
+            <div class="learn-anywhere">
+                <img src="{% static 'images/Logo%20Learn%20Anywhere.PNG'%}">
+                <h2>Learn Anywhere</h2>
+                <p>Switch between your computer, tablet, or mobile device.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!----------- End Trial ----------->
+
+
+    <!----------- Start Courses ----------->
+
+    <div class="courses">
+        <div class="container">
+            <h2>Browse Our Top Courses</h2>
+            <div class="nav">
+                <ul>
+                    <li class="active"> <a href="#">Developer</a></li>
+                    <li> <a href="#">Business</a></li>
+                    <li> <a href="#">Design</a></li>
+                    <li> <a href="#">web</a></li>
+                    <li> <a href="#">Photography</a></li>
+                    <li> <a href="#">Marketing</a></li>
+                </ul>
+            </div>
+
+            <div class="video">
+
+                <div class="sub-video">
+                    <video controls class="introVideo">
+				<source src="../videos/(1)%20Mustafa%20Hosny.mp4" type="video/mp4">
+                 </video>
+                    <div class="info-video">
+                        <h3>Visual Basic Essential Training: Examples</h3>
+                        <small>David Gassner</small><br>
+                        <span>4h 18m <strong>. 722,847</strong> Views</span>
+                    </div>
+                </div>
+
+                <div class="sub-video">
+                    <video class="introVideo">
+				<source src="" type="video/mp4">
+                 </video>
+                    <div class="info-video">
+                        <h3>Programming Foundations:<br>Real-World Examples</h3>
+                        <small>Barron Strone</small><br>
+                        <span>3h 8m <strong>. 1,029,635</strong> Views</span>
+                    </div>
+                </div>
+                <div class="sub-video">
+                    <video class="introVideo">
+				<source src="" type="video/mp4">
+                 </video>
+                    <div class="info-video">
+                        <h3>Programming Foundations:<br>Databases</h3>
+                        <small>Slimon Allardice</small><br>
+                        <span>3h 11m <strong>. 1,686,659</strong> Views</span>
+                    </div>
+                </div>
+                <div class="sub-video">
+                    <video class="introVideo">
+				<source src="" type="video/mp4">
+                 </video>
+                    <div class="info-video">
+                        <h3>Java 8 Essential Trining: Examples</h3>
+                        <small>David Gassner</small><br>
+                        <span>6h 4m <strong>. 3,036,040</strong> Views</span>
+                    </div>
+                </div>
+                <div class="sub-video">
+                    <video class="introVideo">
+				<source src="" type="video/mp4">
+                 </video>
+                    <div class="info-video">
+                        <h3>Learning Java</h3>
+                        <small>Peggy Fisher</small><br>
+                        <span>3h 9m <strong>. 1,903,821</strong> Views</span>
+                    </div>
+                </div>
+                <div class="sub-video">
+                    <video class="introVideo">
+				<source src="" type="video/mp4">
+                 </video>
+                    <div class="info-video">
+                        <h3>Learning Hadoop</h3>
+                        <small>Lynn Langit</small><br>
+                        <span>4h 4m <strong>. 1,508,642</strong> Views</span>
+                    </div>
+                </div>
+                <div class="sub-video">
+                    <video class="introVideo">
+				<source src="" type="video/mp4">
+                 </video>
+                    <div class="info-video">
+                        <h3>C#Essential Training</h3>
+                        <small>David Gassner</small><br>
+                        <span>3h <strong>. 1,850,716</strong> Views</span>
+                    </div>
+                </div>
+                <div class="sub-video">
+                    <video class="introVideo">
+				<source src="" type="video/mp4">
+                 </video>
+                    <div class="info-video">
+                        <h3>C++Essential Training</h3>
+                        <small>David Gassner</small><br>
+                        <span>7h 48m <strong>. 1,985,581</strong> Views</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content-btn">
+
+            </div>
+        </div>
+    </div>
+
+    <!--  End Courses -->
+
+    <!--  Start Careers -->\
+
+    <div class="careers">
+        <div class="container">
+            <h2>Stay Sharp. Get ahead with Learning Paths.</h2>
+            <div class="progress">
+                <div class="digital-marketer">
+                    <div class="overlay">
+                        <h4>Digital Marketer</h4>
+                    </div>
+                </div>
+                <div class="web-developer">
+                    <div class="overlay">
+                        <h4> Front-End Web Developer</h4>
+                    </div>
+                </div>
+                <div class="manager">
+                    <div class="overlay">
+                        <h4>Become a Manager</h4>
+                    </div>
+                </div>
+                <div class="system-administrator">
+                    <div class="overlay">
+                        <h4> Windows Sys Administrator</h4>
+                    </div>
+                </div>
+
+                <div class="digital-illustrator">
+                    <div class="overlay">
+                        <h4>Digital Illustrator</h4>
+                    </div>
+                </div>
+                <div class="Graphic-designer">
+                    <div class="overlay">
+                        <h4>Graphic Designer</h4>
+                    </div>
+                </div>
+                <div class="security-specialist">
+                    <div class="overlay">
+                        <h4>Security Specialist</h4>
+                    </div>
+                </div>
+                <div class="project-coordinator">
+                    <div class="overlay">
+                        <h4>Project Coordinator</h4>
+                    </div>
+                </div>
+            </div>
+            <h5>Browse All Learning Paths</h5>
+        </div>
+
+    </div>
+
+    <!--  End Careers -->
+
+    <!-- Start About Me -->
+
+    <div class="about-me">
+        <div class="container">
+            <div class="image">
+                <img src="{% static 'images/Paul.PNG'%}">
+            </div>
+            <div class="info">
+                <p>Ben Long is the best, 90% of what I know about photography I've learned from watching his videos on Website. <br> <span>– Paul, Photography Director</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End About Me -->
+
+
+    <!-- End About Company -->
+
+    <div class="about-company">
+        <div class="container">
+            <h3>Need to train your team?</h3>
+            <p>We offer flexible, cost-effective group memberships for your business, school, or government organization.<a>Contact us to learn more.</a> </p>
+            <div class="image">
+                <img src="{% static 'images/company.PNG'%}">
+            </div>
+        </div>
+    </div>
+
+    <!-- End About Company -->
+
+    <!-- Start Learning -->
+
+    <div class="learning">
+        <div class="container">
+            <div class="info">
+                <h3>Limitless learning, limitless possibilities</h3><br>
+
+                <p>Learning can happen anywhere with our apps on your computer, mobile device, and TV, featuring enhanced navigation and faster streaming for anytime learning.</p>
+
+            </div>
+            <div class="image">
+
+                <img src="{% static 'images/Leaning.PNG'%}">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- End Learning -->
+
+    <!-- Start Contact Me -->
+
+    <div class="contact-me">
+        <div class="container">
+            <div class="info">
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+            </div>
+            <div class="media">
+                <h2>Connect</h2>
+                <ul>
+                    <li>
+                        <i class="fa fa-twitter-square fa-3x">
+                            <a href="https://https://twitter.com" title="twitter" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-linkedin-square fa-3x">
+                            <a href="https://https://linked.com" title="linked" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-google-plus-square fa-3x">
+                            <a href="https://https://google.com" title="Google" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-youtube-square fa-3x">
+                            <a href="https://https://youtube.com"title="Youtube" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-facebook-square fa-3x">
+                            <a href="https://https://facebook.com" title="Facebook" target="_blank"></a>
+                        </i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Contact Me -->
+
+    <!-- Start Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="policy">
+                <ul>
+                    <li><span>&copy; 2017 LinkedIn Corporation</span></li>
+                    <li><a>Site Map</a></li>
+                    <li><a>Privacy policy</a></li>
+                    <li><a>Web Use Policy</a></li>
+                    <li><a>Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="image">
+
+                <img src="{% static 'images/LogoPNG.png'%}" class="logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- End Footer -->
+href="{% static 'js/bootstrap.min.js'%}"
+    <script src="{% static 'js/jquery-1.12.0.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+</body>
+
+</html>

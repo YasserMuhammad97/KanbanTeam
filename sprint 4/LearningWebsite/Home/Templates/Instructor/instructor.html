@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load staticfiles %}
+     href="{% static 'images/br.jpg'%}"
+    <title> E-learning System </title>
+    <!-- IE Compability Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css'%}">
+    <link rel="icon" href="{% static 'images/favicon.ico'%}">
+
+    <!--  Google Font  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+
+    <!--  animate to wow.js  -->
+    <link rel="stylesheet" href="{% static 'css/animate.css'%}">
+
+    <!--  main css style  -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css'%}">
+    <link rel="stylesheet" href="{% static 'css/rtl.css'%}">
+    <link rel="stylesheet" type="text/css"href="{% static 'css/style123.css'%}">
+</head>
+
+<body>
+    
+    <nav class="navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header col-lg-3">
+                <img src="{% static 'images/LogoPNG.png'%}" class="Logo">
+            </div>
+             <ul class="nav navbar-nav col-lg-6">
+                <li><a href="http://127.0.0.1:8000/Home/">Home</a></li>
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Courses <span class='caret'></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://127.0.0.1:8000/Home/java/">Java</a></li>
+                        <li><a href="../Courses/index.html">Android</a></li>
+                        <li><a href="http://127.0.0.1:8000/Home/graphics/">Graphic</a></li>
+                        <li><a href="http://127.0.0.1:8000/Home/database/">Database</a></li>
+                        <li><a href="../Courses/index.html">Web Design</a></li>
+                        <li><a href="../Courses/index.html">Marketing</a></li>
+                        <li><a href="../Courses/index.html">Photography</a></li>
+                        <li><a href="../Courses/index.html">Software Developer</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://127.0.0.1:8000/Home/instructors/">Instructors</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="http://127.0.0.1:8000/Home/aboutus/">About Me</a></li>
+                <li><a href="http://127.0.0.1:8000/Home/contactus/">Contacts</a></li>
+                <li><a href="http://127.0.0.1:8000/logout">logout</a></li>
+            </ul>
+            <form class="navbar-form navbar-left col-lg-3">
+                <div class="form-group">
+                    <input type="text" name="search" placeholder="Search for the software or skills  you want to learn">
+                </div>
+            </form>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+
+                <div class="wrapper col-md-5">
+                    <div class="row">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="{% static 'images/br.jpg'%}" class="insName">
+                            </div>
+                            <div class="media-body">
+                                <h2>Instructor: Bucky roberts</h2>
+                                <small>programmer Instructor</small>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Published on  march 27,2018</h6>
+                    <p>Bucky Roberts is former employee of Google. He is a programmer.
+
+        Of course his channel has many tutorials that doesn't mean he know all of them.
+
+        Some tutorials are taught by his friends also. Some taught by some other Proffesionals.
+
+        Anybody can learn anything but not at once. He is also the same.
+
+        He learns one langauge, teaches it and goes to another langauge.
+                      He taught many language like java,c++,c,database,PS6         </p>
+                    <div class="details">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                        </div>
+                        <div class="social">
+
+                            <a href="#"><img src="{% static 'images/facebook.png'%}"></a>
+                            <a href="#"><img src="{% static 'images/Twitter .png'%}" class="twitter"></a>
+                            <a href="#"><img src="{% static 'images/Google-plus.ico'%}"></a>
+                            <a href="#"><img src="{% static 'images/linkedin.png'%}"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                    
+                    <div class="wrapper col-md-5">
+                        <div class="row">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img src="{% static 'images/md.jpg'%}" class="insName">
+                                </div>
+                                <div class="media-body">
+                                    <h2>Instructor: mohamed eldeskoy</h2>
+                                    <small>database Instructor</small>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Published on  march 27,2018</h6>
+                        <p>mohamed eldeskoy is former employee of fci in saudia. He is a programmer.
+
+            Of course his channel has many tutorials that doesn't mean he know all of them.
+
+            Some tutorials in database and others on c++.
+
+                        </p>
+                        <div class="details">
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                            <div class="social">
+                                <a href="#"><img src="{% static 'images/facebook.png'%}"></a>
+                                <a href="#"><img src="{% static 'images/Twitter .png'%}" class="twitter"></a>
+                                <a href="#"><img src="{% static 'images/Google-plus.ico'%}"></a>
+                                <a href="#"><img src="{% static 'images/linkedin.png'%}"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                    
+                    <div class="wrapper col-md-5">
+                        <div class="row">
+                            <div class="media">
+                                <div class="media-left">
+
+                                    <img src="{% static 'images/102.jpg'%}" class="insName">
+                                </div>
+                                <div class="media-body">
+                                    <h2>Instructor :</h2>
+                                    <small> Instructor</small>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Published on march 27,2018</h6>
+                        <p></p>
+                        <div class="details">
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                            <div class="social">
+                                <a href="#"><img src="{% static 'images/facebook.png'%}"></a>
+                                <a href="#"><img src="{% static 'images/Twitter .png'%}" class="twitter"></a>
+                                <a href="#"><img src="{% static 'images/Google-plus.ico'%}"></a>
+                                <a href="#"><img src="{% static 'images/linkedin.png'%}"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col">
+                    
+                    <div class="wrapper col-md-5">
+                        <div class="row">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img src="{% static 'images/102.jpg'%}" class="insName">
+                                </div>
+                                <div class="media-body">
+                                    <h2>Instructor Name: </h2>
+                                    <small> Instructor</small>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Published on  march 27,2018</h6>
+                        <p></p>
+                        <div class="details">
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                            <div class="social">
+                                <a href="#"><img src="{% static 'images/facebook.png'%}"></a>
+                                <a href="#"><img src="{% static 'images/Twitter .png'%}" class="twitter"></a>
+                                <a href="#"><img src="{% static 'images/Google-plus.ico'%}"></a>
+                                <a href="#"><img src="{% static 'images/linkedin.png'%}"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                    
+                    <div class="wrapper col-md-5">
+                        <div class="row">
+                            <div class="media">
+                                <div class="media-left">
+
+                                    <img src="{% static 'images/102.jpg'%}" class="insName">
+                                </div>
+                                <div class="media-body">
+                                    <h2>Instructor Name: </h2>
+                                    <small> Instructor</small>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Published on  march 27,2018</h6>
+                        <p></p>
+                        <div class="details">
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                            <div class="social">
+                                <a href="#"><img src="{% static 'images/facebook.png'%}"></a>
+                                <a href="#"><img src="{% static 'images/Twitter .png'%}" class="twitter"></a>
+                                <a href="#"><img src="{% static 'images/Google-plus.ico'%}"></a>
+                                <a href="#"><img src="{% static 'images/linkedin.png'%}"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col">
+                    
+                    <div class="wrapper col-md-5">
+                        <div class="row">
+                            <div class="media">
+                                <div class="media-left">
+
+                                    <img src="{% static 'images/102.jpg'%}" class="insName">
+                                </div>
+                                <div class="media-body">
+                                    <h2>Instructor Name:</h2>
+                                    <small> Instructor</small>
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Published on  march 27,2018</h6>
+                        <p></p>
+                        <div class="details">
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                            <div class="social">
+                                <a href="#"><img src="{% static 'images/facebook.png'%}" class="facebook"></a>
+                                <a href="#"><img src="{% static 'images/Twitter .png'%}" class="twitter"></a>
+                                <a href="#"><img src="{% static 'images/Google-plus.ico'%}" class="gPlus"></a>
+                                <a href="#"><img src="{% static 'images/linkedin.png'%}"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+
+    
+    <footer>
+        <div class="container " id="footeContainer">
+            <div class="row footerFirstContainer">
+                <div class="col-md-6">
+
+                    <img src="{% static 'images/LogoPNG.png'%}" class="footerLogo">
+                </div>
+                <div class="col-md-6">
+                    <div class="socialFooter">
+                        <a href="#"><img src="{% static 'images/facebook.png'%}" class="facebook"></a>
+                        <a href="#"><img src="{% static 'images/Twitter .png'%}" class="twitter"></a>
+                        <a href="#"><img src="{% static 'images/Google-plus.ico'%}" class="gPlus"></a>
+                        <a href="#"><img src="{% static 'images/linkedin.png'%}"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footerSecondContainer">
+                <div class="col-md-6">
+                    <p>FCI E-learning System is a project produced by FCI students and Professors to improve the qulification of the faculty students to be up to date with labor market requirements </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="terms">
+                        <a href="#">
+                            <font>Privacy Policy</font>
+                        </a>
+                        <a href="#">
+                            <font>Terms & Conditions</font>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center" style="color:#4d4d4d;">FCI E-Learning C 2017</p>
+    </footer>
+
+    <script src="{% static 'js/jquery-1.12.0.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    <script src={% static 'js/action.js'%}></script>
+</body>
+
+</html>

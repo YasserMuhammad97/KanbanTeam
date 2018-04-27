@@ -1,0 +1,33 @@
+<html>
+
+    <head>
+    {% load staticfiles %}
+
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/SignUp_CSS.css'%}">
+    </head>
+<body style="background-image: url({% static 'images/signup_background.jpg' %})">
+
+
+<div class="Login_message">
+    LOGIN
+</div>
+<form  method="POST">
+    {% csrf_token %}
+
+    <div class="line"></div>
+
+<div class="form_wrapper">
+    {{ form.as_p }}
+    <input class="signup_btn" type="submit" name="login" value="login">
+
+
+</div>
+</form>
+<div class="SignUp_message">
+                <a  href="http://127.0.0.1:8000/Home/register/">register</a>
+            </div>
+</body>
+
+
+</html>

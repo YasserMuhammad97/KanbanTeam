@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    {% load staticfiles %}
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- First mobile meta-->
+    <meta name="viewport" content="width=device-width,intial-scale=1">
+    <meta content="Well come to about page">
+    <title> E-learning System </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/aboutme.css'%}">
+    <link rel="stylesheet"href="{% static 'css/bootstrap.css'%}">
+    <link rel="stylesheet"href="{% static 'css/font-awesome.min.css'%}">
+
+    <script src="{% static 'js/html5shiv.min.js'%}"></script>
+    <!-- علشان يقدر يشووف ال هيدير في ميكروسوفت اكسبلورير-->
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!----------- Start NavBar ----------->
+
+    <nav class="navbar-inverse  navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header col-lg-3">
+                <img src="{% static 'images/LogoPNG.png'%}" class="Logo">
+            </div>
+             <ul class="nav navbar-nav col-lg-6">
+                <li><a href="http://127.0.0.1:8000/Home/">Home</a></li>
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Courses <span class='caret'></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://127.0.0.1:8000/Home/java/">Java</a></li>
+                        <li><a href="../Courses/index.html">Android</a></li>
+                        <li><a href="http://127.0.0.1:8000/Home/graphics/">Graphic</a></li>
+                        <li><a href="http://127.0.0.1:8000/Home/database/">Database</a></li>
+                        <li><a href="../Courses/index.html">Web Design</a></li>
+                        <li><a href="../Courses/index.html">Marketing</a></li>
+                        <li><a href="../Courses/index.html">Photography</a></li>
+                        <li><a href="../Courses/index.html">Software Developer</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://127.0.0.1:8000/Home/instructors/">Instructors</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="http://127.0.0.1:8000/Home/aboutus/">About Me</a></li>
+                <li><a href="http://127.0.0.1:8000/Home/contactus/">Contacts</a></li>
+                <li><a href="http://127.0.0.1:8000/logout">logout</a></li>
+            </ul>
+            <form class="navbar-form navbar-left col-lg-3">
+                <div class="form-group">
+                    <input type="text" name="search" placeholder="Search for the software or skills  you want to learn">
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <!----------- End NavBar ----------->
+
+
+    <!-----------start header----------->
+
+    <div class="header">
+        <div class="overlay">
+            <div class="intro ">
+                <h1>At FC; E-learning, we’re improving lives through learning</h1>
+                <p>Join millions of students and instructors in the world’s largest online learning marketplace<br>
+                   
+                </p>
+             
+            </div>
+        </div>
+    </div>
+
+    <!----------- end header ----------->
+
+
+    <!----------- start content ----------->
+
+    <div class="content">
+        <div class="container">
+            <div class="head">
+                <h1>Enriching lives</h1>
+            </div>
+            <div class="head2">
+                <p>FC; E-learning is a global marketplace for learning and teaching online where students are mastering new skills and achieving their goals by learning from an extensive library of over 55,000 courses taught by expert instructors.</p>
+            </div>
+        </div>
+    </div>
+
+    <!----------- end content ----------->
+
+    <!----------- start port ----------->
+
+    <div class="port">
+        <div class="container">
+            <div class="images">
+
+                <img src="{% static 'images/pexels-photo-374074.jpeg'%}">
+                <img src="{% static 'images/man-relax-couch-study.jpg'%}">
+            </div>
+        </div>
+    </div>
+
+    <!----------- end port ----------->
+
+
+    <!----------- Start Contact Me ----------->
+
+    <div class="contact-me">
+        <div class="container">
+            <div class="info">
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+            </div>
+            <div class="media">
+                <h2>Connect</h2>
+                <ul>
+                    <li>
+                        <i class="fa fa-twitter-square fa-3x">
+                            <a href="https://https://twitter.com" title="twitter" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-linkedin-square fa-3x">
+                            <a href="https://https://linked.com" title="linked" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-google-plus-square fa-3x">
+                            <a href="https://https://google.com" title="Google" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-youtube-square fa-3x">
+                            <a href="https://https://youtube.com"title="Youtube" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-facebook-square fa-3x">
+                            <a href="https://https://facebook.com" title="Facebook" target="_blank"></a>
+                        </i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!----------- End Contact Me ----------->
+
+    <!----------- Start Footer ----------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="policy">
+                <ul>
+                    <li><span>&copy; 2017 LinkedIn Corporation</span></li>
+                    <li><a>Site Map</a></li>
+                    <li><a>Privacy policy</a></li>
+                    <li><a>Web Use Policy</a></li>
+                    <li><a>Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="image">
+
+
+                <img src="{% static 'images/LogoPNG.png'%}" class="logo">
+            </div>
+        </div>
+    </div>
+
+    <!----------- End Footer ----------->
+
+    <script src="{% static 'js/jquery-1.12.0.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+
+</body>
+
+</html>

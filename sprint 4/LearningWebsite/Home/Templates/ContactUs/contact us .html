@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     {% load staticfiles %}
+
+    <meta charset="utf-8">
+    <meta type="descrption" content="page about contact us ">
+    <title> E-learning System </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/stylecontact.css'%}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css'%}">
+</head>
+
+<body>
+    <!----------- Start NavBar ----------->
+
+    <nav class="navbar-inverse  navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header col-lg-3">
+                <img src="{% static 'images/LogoPNG.png'%}" class="Logo">
+            </div>
+             <ul class="nav navbar-nav col-lg-6">
+                <li><a href="http://127.0.0.1:8000/Home/">Home</a></li>
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Courses <span class='caret'></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://127.0.0.1:8000/Home/java/">Java</a></li>
+                        <li><a href="../Courses/index.html">Android</a></li>
+                        <li><a href="http://127.0.0.1:8000/Home/graphics/">Graphic</a></li>
+                        <li><a href="http://127.0.0.1:8000/Home/database/">Database</a></li>
+                        <li><a href="../Courses/index.html">Web Design</a></li>
+                        <li><a href="../Courses/index.html">Marketing</a></li>
+                        <li><a href="../Courses/index.html">Photography</a></li>
+                        <li><a href="../Courses/index.html">Software Developer</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://127.0.0.1:8000/Home/instructors/">Instructors</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="http://127.0.0.1:8000/Home/aboutus/">About Me</a></li>
+                <li><a href="http://127.0.0.1:8000/Home/contactus/">Contacts</a></li>
+                <li><a href="http://127.0.0.1:8000/logout">logout</a></li>
+            </ul>
+            <form class="navbar-form navbar-left col-lg-3">
+                <div class="form-group">
+                    <input type="text" name="search" placeholder="Search for the software or skills  you want to learn">
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <!----------- End NavBar ----------->
+
+    <!--------------------- start head ---------------------------------->
+    <div class="head">
+        <div class="slider">
+            <div class="overline">
+                <div class="container">
+                    <div class="intro">
+                        <h1>More than just a website</h1>
+                        <ul>
+                            <li>Build Your Brand</li>
+                            <li>Get New Business</li>
+                            <li>Manage Client</li>
+                            <li>Do it yourself</li>
+                        </ul>
+                        <div class="clearfix"></div>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!------------------------------end head------------------------>
+
+
+    <!-- start body-->
+    <div class="touch">
+        <div class="container">
+            <div class="first">
+                <div class="moh">
+                    <h2>Get in touch</h2>
+                    <p>Please fill out the quick form and we will be in touch with lightening speed</p>
+                    <form  method="post">
+                        {% csrf_token %}
+                        {{ form }}
+                    <input type="submit" value="Submit" />
+                    </form>
+                </div>
+                <div class="last">
+
+                    <h2>Connect with us:</h2>
+                    <p>for support an any question:<br>Email us at <a href="support us ">support &#64;learning.com</a></p>
+                    <h3>cairo</h3>
+                    <p>35 Silvreside Road ,Suite 76 Street<br>Wimingotor ,Giehan 18907,<br>Cairo</p>
+                    <h3>mansora</h3>
+                    <p>35 Silvreside Road ,Suite 76 Street<br>Wimingotor ,Giehan 18907,<br>El-mansora</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!----------------------------------end body------------------------->
+
+
+
+    <!-------------------------------- start footer---------------------------->
+    <div class="foot">
+        <div class="container">
+            <div class="port">
+                <h2>Building your portfolio website just got easier</h2>
+               
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!---------------------------------- end footer ------------------------>
+    <!-- Start Contact Me -->
+
+    <div class="contact-me">
+        <div class="container">
+            <div class="info">
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+                <ul>
+                    <li class="title">
+                        <h2>About Us</h2>
+                    </li>
+                    <li><a>About Us</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Press Center</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Video2Brain</a></li>
+                </ul>
+            </div>
+            <div class="media">
+                <h2>Connect</h2>
+                <ul>
+                    <li>
+                        <i class="fa fa-twitter-square fa-3x">
+                            <a href="https://https://twitter.com" title="twitter" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-linkedin-square fa-3x">
+                            <a href="https://https://linked.com" title="linked" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-google-plus-square fa-3x">
+                            <a href="https://https://google.com" title="Google" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-youtube-square fa-3x">
+                            <a href="https://https://youtube.com"title="Youtube" target="_blank"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa fa-facebook-square fa-3x">
+                            <a href="https://https://facebook.com" title="Facebook" target="_blank"></a>
+                        </i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Contact Me -->
+
+    <!-- Start Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="policy">
+                <ul>
+                    <li><span>&copy; 2017 LinkedIn Corporation</span></li>
+                    <li><a>Site Map</a></li>
+                    <li><a>Privacy policy</a></li>
+                    <li><a>Web Use Policy</a></li>
+                    <li><a>Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="{% static 'images/LogoPNG.png'%}"  class="logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- End Footer -->
+
+    <script src="{% static 'js/jquery-1.12.0.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+</body>
+    
+    
+</html>
